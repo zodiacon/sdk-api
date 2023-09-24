@@ -64,7 +64,7 @@ Retrieves information about a range of pages within the virtual address space of
 
 ### -param hProcess [in]
 
-A handle to the process whose memory information is queried. The handle must have been opened with the <b>PROCESS_QUERY_INFORMATION</b> access right, which enables using the handle to read information from the process object. For more information, see 
+A handle to the process whose memory information is queried. The handle must have been opened with the <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right, which enables using the handle to read information from the process object. For more information, see 
 <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 ### -param lpAddress [in, optional]
